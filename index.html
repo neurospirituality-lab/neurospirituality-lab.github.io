@@ -25,8 +25,16 @@
     /* Inline logos styling */
     .inline-logos img {
       max-height: 60px;
-      margin: 0 15px;
+      margin: 10px;
     }
+
+    @media (max-width: 576px) {
+      .inline-logos img {
+        max-height: 40px;
+        margin: 5px;
+      }
+    }
+
     .video-background {
       position: relative;
       width: 100%;
@@ -75,7 +83,7 @@
               <a class="nav-link" href="./people.html">People</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./research.html">Research</a>
+              <a class="nav-link" href="https://scholar.google.com/citations?user=cIC-OOgAAAAJ">Research</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./resources.html">Resources</a>
@@ -100,7 +108,7 @@
         We explore how brain circuits shape spiritual experiences and beliefs, integrating neuroscience and spirituality to better understand the human mind.
       </p>
       <p class="lead">
-        <a href="./people.html">Our Team</a> | <a href="./research.html">Research</a> | <a href="./contact.html">Donate</a>
+        <a href="./people.html">Our Team</a> | <a href="https://scholar.google.com/citations?user=cIC-OOgAAAAJ">Our Research</a> | <a href="./contact.html#support-us">Support Our Mission</a>
       </p>
       <hr>
     </div>
@@ -151,16 +159,17 @@
 </div>
 
 
-  <!-- Horizontal Rule and Centered Inline Logos -->
-  <div class="container text-center">
+<!-- Horizontal Rule and Centered Inline Logos -->
+<div class="container text-center">
     <hr>
-    <div class="d-flex justify-content-center align-items-center inline-logos my-4">
-      <img src="assets/logos/cbct_logo_dark.png" alt="Logo 2">
-      <img src="assets/logos/HMS_logo.png" alt="Logo 3">
-      <img src="assets/logos/bwh-logo.svg" alt="Logo 4">
+    <div class="d-flex flex-wrap justify-content-center align-items-center inline-logos my-4">
+      <img src="assets/logos/cbct_logo_dark.png" alt="Logo 2" class="img-fluid">
+      <img src="assets/logos/HMS_logo.png" alt="Logo 3" class="img-fluid">
+      <img src="assets/logos/bwh-logo.svg" alt="Logo 4" class="img-fluid">
     </div>
   </div>
 </div>
+
 
   <!-- Footer -->
   <footer class="custom-footer">
