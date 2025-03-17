@@ -20,7 +20,7 @@ The website is hosted on GitHub Pages and is HTML/CSS/JS, no server-side code no
 **Color Palette**
 - `#003B6D` - Dark Blue
 - `#6699CC` - Light Blue
-- `#EBEDF3` Off White
+- `#fafbff` Off White
 - `#BDBDBD` - Light Grey
 - `#676767` - Dark Grey
 
